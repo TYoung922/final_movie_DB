@@ -3,7 +3,7 @@ require("dotenv").config();
 const expressLayouts = require("express-ejs-layouts");
 const express = require("express");
 const app = express();
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3000;
 
 const cookieParser = require("cookie-parser");
 const MongoStore = require("connect-mongo");
